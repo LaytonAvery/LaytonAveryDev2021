@@ -1,0 +1,74 @@
+body {
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-color: snow;
+  color: #333;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -2;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.slides-navigation {
+  z-index: 6;
+}
+.slides-navigation .prev,
+.slides-navigation .next {
+  width: 38px;
+  height: 38px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slides-navigation a.prev {
+  left: 20px;
+  background-image: url(../icons/left.png);
+}
+
+.slides-navigation a.next {
+  right: 20px;
+  background-image: url(../icons/right.png);
+}
+.titleMessage {
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 50%;
+  z-index: 3;
+  text-align: center;
+  margin-top: -125px;
+}
+.titleMessage .heading p {
+  color: seashell;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  letter-spacing: 8px;
+}
+.titleMessage .heading .main {
+  font-size: 50px;
+}
+.titleMessage .heading .sub {
+  font-size: 30px;
+}
+.section {
+  padding: 100px 0;
+}
+.aboutImage {
+  max-width: 100%;
+}
+.skillsSection .contactSection {
+  background-color: rosybrown;
+  color: seashell;
+  font-size: 14px;
+}
+
+.contactButton {
+  color: black;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid rosybrown;
+  border-radius: 2px;
+}
