@@ -47,10 +47,10 @@ body {
   letter-spacing: 8px;
 }
 .titleMessage .heading .main {
-  font-size: 50px;
+  font-size: 60px;
 }
 .titleMessage .heading .sub {
-  font-size: 30px;
+  font-size: 40px;
 }
 .section {
   padding: 100px 0;
@@ -59,8 +59,8 @@ body {
   max-width: 100%;
 }
 .skillsSection .contactSection {
-  background-color: rosybrown;
-  color: seashell;
+  background-color: none;
+  color: black;
   font-size: 14px;
 }
 
@@ -69,6 +69,41 @@ body {
   padding: 15px 20px;
   display: inline-block;
   margin-top: 20px;
-  border: 1px solid rosybrown;
+  border: 1px solid;
   border-radius: 2px;
+}
+
+.skills {
+  position: relative;
+}
+.skills ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.skills ul li {
+  list-style: none;
+}
+.skills ul li i {
+  display: block;
+  position: relative;
+  width: 1rem;
+  height: 4rem;
+  line-height: 100px;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin: 0 30px;
+  transition: 0.5s;
+}
+.skills p {
+  text-align: center;
+}
+.spaceDiv2 {
+  height: 2rem;
 }
