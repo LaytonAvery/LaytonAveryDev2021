@@ -72,7 +72,10 @@ body {
   border: 1px solid;
   border-radius: 2px;
 }
-
+.contactButton:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
 .skills {
   position: relative;
 }
@@ -106,4 +109,18 @@ body {
 }
 .spaceDiv2 {
   height: 2rem;
+}
+.copyrightSection {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyrightSection p {
+  margin: 0;
+}
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
 }
