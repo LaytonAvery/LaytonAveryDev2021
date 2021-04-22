@@ -113,14 +113,37 @@ body {
 .copyrightSection {
   background-color: #000;
   color: #fff;
-  padding: 30px 5px;
+  padding: 20px 5px;
+  position: sticky;
+  bottom: 0;
 }
 
-.copyrightSection p {
+.copyrightSection a p {
   margin: 0;
+  text-align: center;
 }
 .section .heading {
   text-align: center;
   padding-bottom: 40px;
   width: 100%;
+}
+.navbar {
+  background-color: black;
+  padding: 10px 10px;
+  z-index: 100;
+}
+.navbar-brand,
+.nav-item {
+  padding: 0 10px;
+  color: white;
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+.nav-item:hover {
+  color: #fff;
+}
+.navbar-toggler-icon {
+  background: url(../img/menuIcon.png);
+  background-size: 100%;
 }
