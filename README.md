@@ -8,3 +8,6 @@ JavaScript, HTML, CSS, and Bootstrap
 
 ## Demo:
 ![](img/portfolioGIF.gif)
+
+## Live Link:
+http://layton-avery.surge.sh/
