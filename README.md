@@ -1,4 +1,4 @@
-# newPortfolioSite
+# Portfolio 
 
 ## Purpose: 
 A work in progress, I am building a portfolio site for the purpose of featuring my projects.
